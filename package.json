@@ -1,0 +1,36 @@
+{
+  "name": "commuty-next",
+  "version": "1.0.0",
+  "description": "Monorepo for Commuty Next assignement project",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd backend && npm run backend",
+    "install-all": "npm install",
+    "install-frontend": "npm install <package-name> --workspace frontend",
+    "install-backend": "npm install <package-name> --workspace backend",
+    "install-shared": "npm install <package-name> --workspace shared"
+  },
+  "author": "Lgu",
+  "license": "ISC",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^9.28.0",
+    "eslint": "9.28.0",
+    "prettier": "3.5.3",
+    "typescript": "5.8.3",
+    "typescript-eslint": "^8.33.1"
+  },
+  "dependencies": {
+    "@asteasolutions/zod-to-openapi": "^7.3.3",
+    "zod": "^3.25.56",
+    "@types/lodash": "^4.17.17",
+    "lodash": "^4.17.21"
+  }
+}
