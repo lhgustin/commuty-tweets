@@ -4,7 +4,7 @@ Monorepo for Commuty Next Full Stack assignement project (using npm workspaces),
 
 Base stack: **Typescript** + **Node.js** + **Express** + **React.js**
 
-<img src='doc.jpg' height="400px">
+<img src='doc-stack.png' height="300px">
 
 # Installation
 ## Prereq: Node 22.16.0+
@@ -38,3 +38,5 @@ No database are required; server will automatically run on port 3000.
 - `npm run frontend` from root
 - `open http://localhost:5173`
 - Navigate accross the stats or search tabs to play with the requested features ;-)
+
+<img src='doc.jpg' height="400px">
